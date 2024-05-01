@@ -3,7 +3,7 @@
  
 # Connect
 1. cammera model wifi connect 
-2. 
+
 ```bash
 ping 192.168.1.1 # to check app 
 
