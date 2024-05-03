@@ -5,6 +5,7 @@
 1. cammera model wifi connect
  
 2. to check
+- theta APP을 통해서 카메라 WIFI 연결 정보를 확인할 수 있음
 ```bash
 ping 192.168.1.1 # to check app 
 
@@ -12,6 +13,8 @@ curl http://192.168.1.1/osc/info
 curl -X POST http://192.168.1.1/osc/state
 
 ```
+3. PYTHON API 예제를 통해 연결성 확인
+- [example](1.mjpeg_stream.py)
 
 ## Theta Metadata 
 - Axis Definition
