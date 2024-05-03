@@ -4,5 +4,12 @@
 - method : mask RCNN
 ![result](./360cam/result_img/draw.png)
 
-## Calibration
-- FISHEYE camera model 
+# Next weeks
+### goals 1
+- Calibration : FISHEYE camera model
+- 6dof pose estmation method
+- Adaptation
+---
+### goals 2
+- using Turtlebot SLAM!
+- To associate an estimated object pose on a map
