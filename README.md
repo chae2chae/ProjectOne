@@ -5,7 +5,9 @@
 ### 세부목표 및 이론 관련 페이지
 - [Lidar](https://leechaeyoung.notion.site/Project-1-6-week-c49e2e6a25a94d4eaaea8f429ecd9bb1?pvs=4)
 
-
+### weeks
+- [2 weeks](2_README.md)
+- [3 weeks](3_README.md)
 
 
 ### Reference

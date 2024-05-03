@@ -2,8 +2,9 @@
 - API : [git](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/protocols/commands_execute.md)
  
 # Connect
-1. cammera model wifi connect 
-2. 
+1. cammera model wifi connect
+ 
+2. to check
 ```bash
 ping 192.168.1.1 # to check app 
 
