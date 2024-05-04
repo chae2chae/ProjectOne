@@ -6,10 +6,9 @@
 
 # Next weeks
 ### goals 1
-- Calibration : FISHEYE camera model
-- 6dof pose estmation method
-- Adaptation
+- Calibration of FISHEYE camera model
+- Method of 6dof pose estmation
 ---
 ### goals 2
-- using Turtlebot SLAM!
+- Using Turtlebot SLAM!
 - To associate an estimated object pose on a map
