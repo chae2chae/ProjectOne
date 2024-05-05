@@ -6,7 +6,7 @@
 - [Lidar](https://leechaeyoung.notion.site/Project-1-6-week-c49e2e6a25a94d4eaaea8f429ecd9bb1?pvs=4)
 
 ## weeks
-### 3 weeks
+> ### 3 weeks
 1. Simple 2D LiDAR Odometry using ICP
 
 2. https://define.tistory.com/entry/2D-LiDAR-Odometry-using-Simple-ICP
@@ -20,7 +20,7 @@
 
 ![lidar_result](./imgs/lidar.png)
 
-### 4 weeks
+> ### 4 weeks
 1. How to using 360cam
 - [connection , simple](./360cam/README.md)
 2. As a result of applying segmentation
@@ -35,7 +35,7 @@
     - Using Turtlebot SLAM!
     - To associate an estimated object pose on a map
 
-### 5 weeks
+> ### 5 weeks
 
 ### Reference
 - [dataset](https://github.com/awesomedata/awesome-public-datasets)
