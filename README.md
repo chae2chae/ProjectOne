@@ -51,7 +51,7 @@
 - [Reference - ROS2 & Yolov8](https://github.com/mgonzs13/yolov8_ros)
 - [Reference - ROS2 & Realsense2](https://github.com/2b-t/realsense-ros2-docker)
   
--[video link](./imgs/ProjectOne_week5.mp4)
+- [video link](./imgs/ProjectOne_week5.mp4)
 ![img](./imgs/5week_result.png)
 </details>
 
