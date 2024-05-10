@@ -48,8 +48,8 @@
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## ROS2 with Yolov8
-- [Reference - ROS2 with Yolov8](https://github.com/mgonzs13/yolov8_ros)
-- [Reference - ROS2 with Realsense2](https://github.com/2b-t/realsense-ros2-docker)
+- [Reference - ROS2 & Yolov8](https://github.com/mgonzs13/yolov8_ros)
+- [Reference - ROS2 & Realsense2](https://github.com/2b-t/realsense-ros2-docker)
 ![result](./imgs/ProjectOne_week5.mp4)
 </details>
 
