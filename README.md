@@ -51,6 +51,12 @@
 - [Reference - ROS2 & Yolov8](https://github.com/mgonzs13/yolov8_ros)
 - [Reference - ROS2 & Realsense2](https://github.com/2b-t/realsense-ros2-docker)
 ![result](./imgs/ProjectOne_week5.mp4)
+
+### How to run 
+```
+$ ros2 launch realsense2_camera rs_launch.py pointcloud.enable:=true
+$ ros2 launch yolov8_bringup yolov8.launch.py
+```
 </details>
 
 
