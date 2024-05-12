@@ -50,6 +50,7 @@
 ## ROS2 with Yolov8
 - [Reference - ROS2 & Yolov8](https://github.com/mgonzs13/yolov8_ros)
 - [Reference - ROS2 & Realsense2](https://github.com/2b-t/realsense-ros2-docker)
+<<<<<<< HEAD
 ![result](./imgs/ProjectOne_week5.mp4)
 
 ### How to run 
@@ -57,6 +58,11 @@
 $ ros2 launch realsense2_camera rs_launch.py pointcloud.enable:=true
 $ ros2 launch yolov8_bringup yolov8.launch.py
 ```
+=======
+  
+- [video link](./imgs/ProjectOne_week5.mp4)
+![img](./imgs/5week_result.png)
+>>>>>>> c44153ef071b33d2b306bb9b72c4df2cf6e93545
 </details>
 
 
