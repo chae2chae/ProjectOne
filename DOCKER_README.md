@@ -32,7 +32,7 @@ docker commit [container id] [저장할 이름] # 저장 이름이 동일하면 
 ```
 
 # Trouble shootings
-### docker 에서 GPU를 사용하고 싶어요 ! 
+### docker 에서 GPU 사용
 1. docker: Error response from daemon: could not select device driver "" with capabilities: [[gpu]].
 - nvidia-container-toolkit 설치하기 
 ```
@@ -50,7 +50,7 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 - 기존의 nvidia-toolkit 과 겹치는 것임 
 - /etc/apt/sources.list.d 폴더 내의 
 - nvidia-contrianer-toolkit.list 삭제
-- 그냥 nividia-container-toolkit 설치
+- nividia-container-toolkit 설치
 
 
 3. docker , rviz 켜는 과정에서 libGL error: GLX drawable type is not supported
@@ -60,3 +60,4 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 - XDG_RUNTIME_DIR not set 문제 인것으로 보임
 - [해결 1](https://dev.to/winebaths/getting-up-and-running-with-the-windows-subsystem-for-linux-8oc)
 - [해결 2](https://askubuntu.com/questions/456689/error-xdg-runtime-dir-not-set-in-the-environment-when-attempting-to-run-naut)
+- 무엇인가 수상해서 다시 꼼꼼히 읽어본 결과..! rviz의 default.rviz 파일이 생성되어 에러가 발생했던 것 ~! 삭제하고 다시!
