@@ -15,8 +15,8 @@ sudo dpkg --add-architecture armhf
 sudo apt update
 sudo apt install libc6:armhf
 
-export OPENCR_PORT=/dev/ttyACM0
-export OPENCR_MODEL=burger
+echo 'export OPENCR_PORT=/dev/ttyACM0' >> ~/.bashrc
+echo 'export OPENCR_MODEL=burger' >> ~/.bashrc
 rm -rf ./opencr_update.tar.bz2
 
 wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2
