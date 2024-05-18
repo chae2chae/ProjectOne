@@ -60,3 +60,28 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 - XDG_RUNTIME_DIR not set 문제 인것으로 보임
 - [해결 1](https://dev.to/winebaths/getting-up-and-running-with-the-windows-subsystem-for-linux-8oc)
 - [해결 2](https://askubuntu.com/questions/456689/error-xdg-runtime-dir-not-set-in-the-environment-when-attempting-to-run-naut)
+- /root/.rviz2 에 default.rviz 파일이 있으면 저렇게 된다 왜 그럴까?
+
+
+# ROS2
+- Life cycle node는 일반 node와 관리 node의 life cycle 관리 가능 (Node 재시작이나 항상 켜져있지 않아도 될 경우에 대해서 컴퓨터 자원을 관리해줌)
+- Lifecycle node는 4개 : primary state , 6개 : transition state를 가짐 
+   - primary state
+      - Unconfigured : 인스턴스 된 직후 또는 Node를 조정될 수 있는 상태
+      - Inactive : Node Publisher/Subscriber 및 Service 등이 구성되어 있지만 아무런 처리를 진행하지 않은 상태
+      - Active : 모든 처리를 시작한 상태
+      - Finaized : Node 가 종료되기 직전!(Node를 다시 활성화 시킬 수 없음)
+- from rclpy.lifecycle import TransitionCallbackReturn
+
+- from tf2_ros.transform_listener import TransformListener
+- from tf2_ros.buffer import Buffer
+   - tf2.BufferCore, tf2_ros.BufferInterface
+
+### Reference 
+- [LifecycleNode Example](https://github.com/ros2/demos/blob/rolling/lifecycle/src/lifecycle_talker.cpp)
+- [LifecycleNode Python Example](https://github.com/ros2/demos/tree/rolling/lifecycle_py)
+
+
+# Ubuntu 
+- [sudo apt update err](https://velog.io/@haze_log/sudo-apt-get-update-%EC%97%90%EB%9F%AC)
+
