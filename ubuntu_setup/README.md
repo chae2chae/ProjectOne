@@ -33,3 +33,6 @@ $ cd /usr/lib/firmware/rtl_bt
 $ sudo ln -s rtl8761b_fw.bin rtl8761bu_fw.bin
 ```
 - 재시작 하면! 됨
+
+### Reference
+- [turtlebot settings](https://velog.io/@katinon/TurtleBot3-with-%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-4-B)
