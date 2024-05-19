@@ -64,8 +64,8 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 <summary>6주차 </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## TODO
-- [] torch.cuda.is_avaliable()을 되게 하시오
+
+![yolo](./imgs/yolo3d.png)
 </details>
 
 <details>
