@@ -63,17 +63,10 @@ echo "[#Install colcon to build packages]"
 sudo apt install python3-colcon-common-extensions
 
 echo "[#Setup Locale]"
-4
 sudo locale-gen en_US en_US.UTF-8
-5
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-6
 export LANG=en_US.UTF-8
-7
-​
-8
-​
-9
+
 echo "[#Setup Sources]"
 #echo "[#ros2_example_ws git clone / build / install]"
 #Create a workspace
@@ -100,7 +93,7 @@ sudo apt update && sudo apt install -y \
   git \
   python3-colcon-common-extensions \
   python3-pip \
-  python-rosdep \
+  python3-rosdep \
   python3-vcstool \
   wget
 # install some pip packages needed for testing

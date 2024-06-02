@@ -78,7 +78,7 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 
 <details>
 <summary>8주차 </summary>
-
+- [TF publisher](/src/tf.py)
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## 접은 제목
 접은 내용

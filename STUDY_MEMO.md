@@ -87,3 +87,5 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 
 - 무엇인가 수상해서 다시 꼼꼼히 읽어본 결과..! rviz의 default.rviz 파일이 생성되어 에러가 발생했던 것 ~! 삭제하고 다시!
 - nmcli connection show : 연결 wifi 정보 확인
+
+

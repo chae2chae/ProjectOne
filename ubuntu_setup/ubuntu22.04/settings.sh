@@ -1,6 +1,6 @@
 
 # Install programs
-sudo apt-get -y install ubuntu-unity-desktop # Ubuntu renderer
+#sudo apt-get -y install ubuntu-unity-desktop # Ubuntu renderer
 sudo snap install clion --classic # CLion IDE
 sudo snap install pycharm-community --classic # Pycharm Community IDE
 sudo snap install --classic code # Visual studio code
