@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# pip install transforms3d => python3 tf.py run  
 import sys
 import time
 import math
@@ -127,8 +127,8 @@ if __name__ == "__main__":
     def test_tf_functions():
         reference_frame = 'camera_link' # Robot base
         target_frame = 'test_link' # Camera topic
-        translation = [1.037, -0.146, -0.041]
-        tf.publishTF(reference_frame, target_frame, translation)
+        # translation = [1.037, -0.146, -0.041]
+        # tf.publishTF(reference_frame, target_frame, translation)
         transform = tf.getTF(reference_frame, target_frame)
         if transform:
             print("Transform obtained:", transform)

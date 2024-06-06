@@ -78,18 +78,28 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 
 <details>
 <summary>8주차 </summary>
-- [TF publisher](./src/tf.py)
+
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 접은 제목
-접은 내용
+- [TF publisher](./src/tf.py)
 </details>
 
 <details>
 <summary>9주차 </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 접은 제목
-접은 내용
+## Todo
+- [] To make original map using 2D LiDAR
+- [] To make Object map using camera
+- [] Matching & Update
+---
+### To make original map using 2D LiDAR
+- ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=true map:=map.yaml
+
+### To make Object map using camera
+- [] camera_link <- target frame setup
+- [] camera-robot tf connect : checking the rqt tf tree 
+
+
 </details>
 
 <details>

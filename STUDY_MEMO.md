@@ -64,6 +64,7 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 
 
 # ROS2
+## Lifecycle study
 - Life cycle node는 일반 node와 관리 node의 life cycle 관리 가능 (Node 재시작이나 항상 켜져있지 않아도 될 경우에 대해서 컴퓨터 자원을 관리해줌)
 - Lifecycle node는 4개 : primary state , 6개 : transition state를 가짐 
    - primary state
@@ -81,7 +82,21 @@ E: Conflicting values set for option Signed-By regarding source https://nvidia.g
 - [LifecycleNode Example](https://github.com/ros2/demos/blob/rolling/lifecycle/src/lifecycle_talker.cpp)
 - [LifecycleNode Python Example](https://github.com/ros2/demos/tree/rolling/lifecycle_py)
 
-
+## Remote PC - Turtlebot
+- setup bashrc
+```
+export ROS_DOMAIN_ID=30
+export TURTLEBOT3_MODEL=burger
+```
+- ping test 
+```
+ping <ip of turtlebot or remote PC>
+```
+- test ros2 multicast send / recieve test
+ => if you are not connect each PC , to check netstat
+ ```
+ netstat -anp | grep <node_name>
+ ```
 # Ubuntu 
 - [sudo apt update err](https://velog.io/@haze_log/sudo-apt-get-update-%EC%97%90%EB%9F%AC)
 
