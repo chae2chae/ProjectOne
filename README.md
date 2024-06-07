@@ -88,17 +88,19 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## Todo
-- [] To make original map using 2D LiDAR
-- [] To make Object map using camera
-- [] Matching & Update
+- [x] To make original map using 2D LiDAR
+- [x] To make Object map using camera
+- [x] Matching & Update
 ---
 ### To make original map using 2D LiDAR
 - ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=true map:=map.yaml
 
 ### To make Object map using camera
-- [] camera_link <- target frame setup
-- [] camera-robot tf connect : checking the rqt tf tree 
+- [x] camera_link <- target frame setup
 
+- To make object map
+- If the newly recognized object is class that was existing, update it when it falls more than 50cm from the existing position
+- [result](https://github.com/CYLoung/yolov8_ros.git)
 
 </details>
 
