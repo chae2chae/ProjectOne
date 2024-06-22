@@ -110,7 +110,8 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 <summary>10주차 </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 접은 제목
+## Todo
+- [ ] Connect map (SLAM map & Object Map)
 접은 내용
 </details>
 
