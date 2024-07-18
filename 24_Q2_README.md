@@ -1,10 +1,12 @@
 # Project 1
 - 목적 : 10주동안 원하는 공부를 할 수 있는 힘을 키우기 위함
-- 목표 : Lidar 또는 Camera를 이용하여 공간에서 물체 또는 사람을 찾는 것을 목표로 함 
-
-### 세부목표 및 이론 관련 페이지
-- [Lidar](https://leechaeyoung.notion.site/Project-1-6-week-c49e2e6a25a94d4eaaea8f429ecd9bb1?pvs=4)
-
+- 최종 목표 : Lidar 또는 Camera를 이용하여 공간에서 물체 또는 사람을 찾고, 또는 정리 정돈하는 로봇연구
+- 프로젝트 목표
+  - 360 camera에 대한 공부를 진행한다 => Object detection 수행
+  - Lidar Map을 얻는다
+  - camera를 연결하여 object map을 생성한다.
+    - update 기준을 정한다.
+      
 ## weeks
 
 <details>
@@ -72,8 +74,8 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 <summary>7주차 </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 접은 제목
-접은 내용
+### SLAM 관련 공부
+- [Link](https://1ch02ch0.notion.site/SLAM-446d51e936c441189478b773f9e8eb12?pvs=4)
 </details>
 
 <details>
@@ -108,7 +110,8 @@ $ ros2 launch yolov8_bringup yolov8.launch.py
 <summary>10주차 </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 접은 제목
+## Todo
+- [ ] Connect map (SLAM map & Object Map)
 접은 내용
 </details>
 
