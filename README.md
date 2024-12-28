@@ -6,9 +6,5 @@
 <summary>2weeks </summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-## 240720
-- navigation
 
-</details>
-
-
+- [24 Q2 내용](./24_Q2_README.md)
